@@ -2,4 +2,4 @@ altair==4.1.0
 streamlit==0.83.0
 pandas==1.2.4
 statsmodels==0.12.2
-openpuxl==3.0.7
+openpyxl==3.0.7
