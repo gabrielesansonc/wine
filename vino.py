@@ -9,30 +9,6 @@ from PIL import Image
 import altair as alt
 import base64
 
-image = Image.open ('Screen Shot 2021-07-13 at 9.56.48 PM.png')
-
-st.image (image, use_column_width=True)
-
-st.title('The Wine Calculator App')
-st.subheader('This app will predict how much you will like an unknown wine!')
-
-st.write("#")
-st.write("#")
-
-
-st.image ('Screen Shot 2021-07-27 at 9.27.37 PM.png', use_column_width=True)
-st.image ('Screen Shot 2021-07-27 at 3.29.19 PM.png', use_column_width=True)
-
-
-sample = pd.read_excel('WineSampleFile.csv')
-samplecsv = sample.to_csv(index=False)
-
-sample.head()
-
-b64 = base64.b64encode(samplecsv.encode()).decode()
-href = f'<a href="data:file/csv;base64,{b64}" download="samplefile.csv">Download Sample file </a>'
-
-st.write(href, unsafe_allow_html=True)   
 
 st.write("#")
 st.write("#")
