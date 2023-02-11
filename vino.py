@@ -9,6 +9,7 @@ from PIL import Image
 import statsmodels.api as sm
 import altair as alt
 import base64
+import numpy
 
 image = Image.open ('Screen Shot 2021-07-13 at 9.56.48 PM.png')
 
